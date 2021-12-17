@@ -10,8 +10,5 @@
             "name": "Stella Oliveira",
             "email": "stella.1609@gmail.com"
         }
-    ],
-    "require": {
-        "php": "^7.1 || ^8.0"
-    }
+    ]
 }
