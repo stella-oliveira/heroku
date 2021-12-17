@@ -1,0 +1,135 @@
+/* ---------- GERAL ---------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #c5946f;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+  	background: #F8F9FA;
+	min-height: 100%;
+}
+
+main {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid transparent;
+}
+
+.container {
+	min-height: 80vh;
+}
+
+.image {
+	max-width: 80vw;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #c5946f;
+	padding: 0;
+}
+
+/* ---------- HEADER ---------- */
+
+header, footer {
+	font-weight: bold;
+	color: #000;
+}
+
+.bg-light {
+	background-color: #eeeeee !important;
+  }
+  
+
+.btn-primary { 
+    text-transform: uppercase;
+    border: none;
+	font-weight: bold;
+}
+
+.btn-primary, .navbar-dark .navbar-nav .nav-link.active {
+	color: #ffffff;
+	background-color: #c5946f;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary, .navbar-dark .navbar-nav .nav-item, .navbar-dark .navbar-nav .nav-link.active {
+	border: 1px solid transparent;
+	margin: 5px;
+}
+
+.btn-primary:hover, .navbar-dark .navbar-nav .nav-item:hover, .navbar-dark .navbar-nav .nav-link.active:hover {
+	color: #c5946f;
+	background-color: transparent;
+	transition: 0.8s;
+    border: 1px solid #c5946f;
+}
+
+.dropdown-item:hover {
+	background-color: #dbbda7;
+}
+
+.dropdown-item:active {
+	background-color: #c5946f;
+}
+
+.logo {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+/* ---------- PÁGINA DE LOGIN ---------- */
+
+#logar_cnpj {
+	display: none;
+}
+
+/* ---------- PÁGINA DE CADASTRO ---------- */
+
+label {
+	font-weight: bold;
+}
+
+.formulario {
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* ---------- PÁGINA DE CONSULTAS ---------- */
+
+.table .thead-light th {
+	color: #FFF;
+	background-color: #c5946f;
+	border-color: #dee2e6;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer a {
+	border-bottom: 1px solid #c5946f;
+}
+
+footer a:hover {
+	color: #000;
+}

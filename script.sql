@@ -1,0 +1,44 @@
+CREATE DATABASE sa;
+USE sa;
+
+CREATE TABLE IF NOT EXISTS pessoa_fisica (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+	cpf VARCHAR(15) UNIQUE,
+    sexo VARCHAR(9),
+    cep CHAR(9) NOT NULL,
+    rua VARCHAR(100) NOT NULL,
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    uf CHAR(2) NOT NULL,
+    numero VARCHAR(50) NOT NULL,
+    telefone VARCHAR(14),
+    celular VARCHAR(15) NOT NULL,
+    usuario VARCHAR(20) NOT NULL UNIQUE,
+    senha VARCHAR(300) NOT NULL,
+    senha2 VARCHAR(300) NOT NULL,
+    dataCriacao DATETIME,
+	PRIMARY KEY (id)
+) DEFAULT CHARSET = utf8;
+
+CREATE TABLE IF NOT EXISTS pessoa_juridica (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+    cnpj VARCHAR(18) NOT NULL UNIQUE,
+    abertura DATE NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+	fantasia VARCHAR(100),
+    codigo VARCHAR(20) NOT NULL,
+    atividade VARCHAR(100) NOT NULL,
+    logradouro VARCHAR(100) NOT NULL,
+    numero VARCHAR(50) NOT NULL,
+    complemento VARCHAR(20),
+    cep VARCHAR(10) NOT NULL,
+    bairro VARCHAR(100) NOT NULL,
+    municipio VARCHAR(100) NOT NULL,
+    uf CHAR(2) NOT NULL,    
+    usuario VARCHAR(20) NOT NULL UNIQUE,
+    senha VARCHAR(300) NOT NULL,
+    senha2 VARCHAR(300) NOT NULL,
+    dataCriacao DATETIME,
+	PRIMARY KEY (id)
+) DEFAULT CHARSET = utf8;
