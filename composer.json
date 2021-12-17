@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "php": "^7.1 || ^8.0"
+        "php": "^7.1 || ^8.0",
+        "phpunit/phpunit": "^9.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
