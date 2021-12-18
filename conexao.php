@@ -10,6 +10,5 @@
     $query_builder = TRUE;
     // Connect to DB
     $conexao = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-?>
-
+    
 ?>
