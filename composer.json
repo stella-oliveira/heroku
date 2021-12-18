@@ -1,10 +1,5 @@
 {
     "name": "stell/heroku",
-    "autoload": {
-        "psr-4": {
-            "Heroku\\": "app/"
-        }
-    },
     "authors": [
         {
             "name": "Stella Oliveira",
