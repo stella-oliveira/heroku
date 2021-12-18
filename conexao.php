@@ -11,9 +11,4 @@
     // Connect to DB
     $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
-    if($conexao->connect_error) {
-        $msg = "Falha ao conectar: " . $conexao->connect_error;
-        alertErro($msg);
-    }
-
 ?>
