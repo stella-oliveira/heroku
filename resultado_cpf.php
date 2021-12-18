@@ -1,5 +1,5 @@
 <?php
-    include_once("conexao.php");
+    require_once "conexao.php";
     include_once("funcoes.php");
     
     if (isset($_GET['id']))

@@ -1,5 +1,5 @@
 <?php
-    include_once("conexao.php");
+    require_once "conexao.php";
     $flag = 0;
 
     $query = "SELECT * FROM pessoa_fisica WHERE id = {$_GET['id']}";

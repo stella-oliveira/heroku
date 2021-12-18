@@ -1,5 +1,5 @@
 <?php
-    include_once("conexao.php");
+    require_once "conexao.php";
     require_once "header.php";
 ?>
 
